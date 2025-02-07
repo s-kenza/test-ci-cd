@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <header className="bg-blue-500 text-white p-4">
+      <header className="bg-blue-500 rounded-sm text-white p-4">
         <h1 className="text-2xl font-bold">Une simple calculette !</h1>
       </header>
 
@@ -39,7 +39,7 @@ function App() {
       <main className="flex-grow p-4">
 
 
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+        <div className="min-h-screen rounded-sm bg-gray-300 flex flex-col items-center justify-center">
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="mb-4">
               <input
